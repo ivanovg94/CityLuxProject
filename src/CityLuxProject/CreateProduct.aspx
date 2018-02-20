@@ -40,7 +40,7 @@
             <div class="col-lg-10 col-lg-offset-2">
                 <asp:Button ID="CreateProductBtn"
                     runat="server"
-                    Text="CreateProduct"
+                    Text="Създай"
                     OnClick="CreateProductBtn_Click" />
             </div>
         </div>

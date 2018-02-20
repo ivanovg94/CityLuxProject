@@ -6,9 +6,11 @@
         runat="server"
         ID="ProductsGrid"
         AutoGenerateColumns="false"
-        ItemType="CityLuxProject.ProductListGridViewModel">
+        ItemType="CityLuxProject.ProductListGridViewModel"
+        CssClass="table  table-bordered table-condensed table-hover">
+
         <Columns>
-            <asp:TemplateField HeaderText="Име на Пръдукта">
+            <asp:TemplateField HeaderText="Име на Продукта">
                 <ItemTemplate>
                     <asp:Label runat="server" Text='<%#: Item.ProductName %>'> </asp:Label>
                 </ItemTemplate>

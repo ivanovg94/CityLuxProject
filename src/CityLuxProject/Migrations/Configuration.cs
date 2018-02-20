@@ -29,25 +29,25 @@ namespace CityLuxProject.Migrations
             //
 
             context.MerchandiseGroup.AddOrUpdate(
-                new Models.MerchandiseGroup() { Id = Guid.NewGuid().ToString(), Name = "Полилеи" },
-                new Models.MerchandiseGroup() { Id = Guid.NewGuid().ToString(), Name = "Настолни лампи" },
-                new Models.MerchandiseGroup() { Id = Guid.NewGuid().ToString(), Name = "Лампиони" },
-                new Models.MerchandiseGroup() { Id = Guid.NewGuid().ToString(), Name = "Портативни лампи" }
+                new Models.MerchandiseGroup() { Id = "1", Name = "Полилеи" },
+                new Models.MerchandiseGroup() { Id = "2", Name = "Настолни лампи" },
+                new Models.MerchandiseGroup() { Id = "3", Name = "Лампиони" },
+                new Models.MerchandiseGroup() { Id = "4", Name = "Портативни лампи" }
                 );
 
             context.UnitOfMeasure.AddOrUpdate(
-               new Models.UnitOfMeasure() { Id = Guid.NewGuid().ToString(), Name = "Кг" },
-               new Models.UnitOfMeasure() { Id = Guid.NewGuid().ToString(), Name = "См" },
-               new Models.UnitOfMeasure() { Id = Guid.NewGuid().ToString(), Name = "W" }
+               new Models.UnitOfMeasure() { Id = "1", Name = "Кг" },
+               new Models.UnitOfMeasure() { Id = "2", Name = "См" },
+               new Models.UnitOfMeasure() { Id = "3", Name = "W" }
                );
 
             context.ComponentType.AddOrUpdate(
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Абажури" },
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Верижки" },
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Плафон" },
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Аплици" },
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Крушки" },
-                new Models.ComponentType() { Id = Guid.NewGuid().ToString(), Name = "Пендели" });
+                new Models.ComponentType() { Id = "1", Name = "Абажури" },
+                new Models.ComponentType() { Id = "2", Name = "Верижки" },
+                new Models.ComponentType() { Id = "3", Name = "Плафон" },
+                new Models.ComponentType() { Id = "4", Name = "Аплици" },
+                new Models.ComponentType() { Id = "5", Name = "Крушки" },
+                new Models.ComponentType() { Id = "6", Name = "Пендели" });
         }
     }
 }
